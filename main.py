@@ -3,7 +3,7 @@ import fastapi
 from fastapi.responses import RedirectResponse
 from mangum import Mangum
 app = fastapi.FastAPI()
-handler = Mangum(app)
+# handler = Mangum(app)
 
 
 info = dict()
